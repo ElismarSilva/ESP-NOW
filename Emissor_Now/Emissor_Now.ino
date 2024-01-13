@@ -1,9 +1,15 @@
+//FirmeWare: Emissor ESP-NOW com NodeMCU
+//Autor: Elismar Silva.
+//Data: 13-01-2024
+//Ciência da Computação - UDF
+
 #include <ESP8266WiFi.h>
 #include <espnow.h>
 
+//Endereço Mac do Receptor Esp8266
 uint8_t broadcastAddress[] = {0x08,0x3A,0x8D,0xD3,0x6D,0x39};
 
-//08:3A:8D:D3:6D:39
+
 typedef struct struct_message {
   char command; // Comando do botão pressionado ('F', 'E', 'D', 'T', 'P')
 } struct_message;

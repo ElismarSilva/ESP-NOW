@@ -1,3 +1,8 @@
+//FirmeWare: Receptor ESP-NOW com NodeMCU
+//Autor: Elismar Silva.
+//Data: 13-01-2024
+//Ciência da Computação - UDF
+
 #include <ESP8266WiFi.h>
 #include <espnow.h>
 
